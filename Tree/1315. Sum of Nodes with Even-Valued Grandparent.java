@@ -31,7 +31,7 @@ class Solution {
         if(root==null)
             return;
         
-        Integer grandParentsLevel = level-2; //Integer grandParentsLevel = level-2
+        Integer grandParentsLevel = level-2; //Integer grandParentsLevel = level-k
         if(parentMap.containsKey(grandParentsLevel)&&parentMap.get(grandParentsLevel)%2==0)
         {
                 sum+=root.val;   
