@@ -1,1 +1,1 @@
-# This Repo contains solutions of various DSA problems
+# This Repo contains solutions for various DSA problems
