@@ -27,3 +27,4 @@ class Solution {
 
 //TC:-O(n)
 //SC:-O(n)  
+//Space complexity can be optimized to O(1) using two pointer approach.
