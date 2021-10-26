@@ -33,8 +33,8 @@ class Solution {
 							int downRow = matrix.length-1;
 							int cols = matrix[0].length;
 
-							while(upRow<=downRow){
-
+							while(upRow<=downRow)
+							{
 
 									int mid = upRow+(downRow-upRow)/2;
 									if(target>=matrix[mid][0]&&target<=matrix[mid][cols-1])
@@ -43,9 +43,6 @@ class Solution {
 											downRow=mid-1;
 									else
 											upRow = mid+1;
-
-
-
 							}
 							return -1;
 			 }
