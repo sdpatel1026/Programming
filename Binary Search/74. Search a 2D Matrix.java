@@ -49,7 +49,7 @@ class Solution {
 }
 
 
-//TC:- O(logM + logN) 
+TC:- O(logM + logN) 
 //logM for searching target row and logN for seraching target element in target row.
-//SC:- O(1)
+SC:- O(1)
 
